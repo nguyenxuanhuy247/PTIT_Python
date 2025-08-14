@@ -1,4 +1,5 @@
 # HELLO WORLD PYTHON
+
 # Viết chương trình in ra lời chào
 
 # Input:
@@ -12,5 +13,9 @@
 # Input | output
 # Nam   | Hello Nam!
 
-name=input()
+name = input()
 print(f"Hello {name}!")
+
+list = ['huy', 'hoa']
+list[10] = 'hung'
+print(type(list))
