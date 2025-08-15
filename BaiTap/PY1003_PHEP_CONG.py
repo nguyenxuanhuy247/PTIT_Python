@@ -1,4 +1,4 @@
-# PHÉP CỘNG
+# PY1003	PHÉP CỘNG
 
 # Cho một phép toán có dạng a + b = c với a,b,c chỉ là các số nguyên dương có một chữ số.
 # Hãy kiểm tra xem phép toán đó có đúng hay không.

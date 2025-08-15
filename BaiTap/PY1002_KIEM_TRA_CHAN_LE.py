@@ -1,4 +1,4 @@
-# KIỂM TRA CHẴN LẺ
+# PY1002	KIỂM TRA CHẴN LẺ
 # Cho một số nguyên dương N không quá 5 chữ số, hãy kiểm tra và in ra số đó chẵn hay lẻ. Nếu chẵn ghi ra chữ CHAN, nếu ngược lại ghi ra chữ LE.
 
 # Input

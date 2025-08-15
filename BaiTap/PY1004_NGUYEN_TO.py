@@ -1,4 +1,4 @@
-# NGUYÊN TỐ
+# PY1004	NGUYÊN TỐ
 
 # Trong toán học, một cặp số được gọi là nguyên tố cùng nhau nếu ước số chung lớn nhất 
 # của 2 số đó là 1. Cho số nguyên dương N, giả sử ta đếm được K số nguyên dương nhỏ hơn N 
