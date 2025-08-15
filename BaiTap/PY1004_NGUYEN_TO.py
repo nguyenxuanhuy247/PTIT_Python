@@ -17,35 +17,21 @@
 # 2      |  NO
 # 3      |  YES
 
-import math
+from math import gcd, sqrt
 
-def euler_phi(n):
-    result = n
-    p = 2
-    while p * p <= n:
-        if n % p == 0:
-            while n % p == 0:
-                n //= p
-            result -= result // p
-        p += 1
-    if n > 1:
-        result -= result // n
-    return result
-
-def is_prime(x):
-    if x < 2:
-        return False
-    if x == 2:
-        return True
-    if x % 2 == 0:
-        return False
-    for i in range(3, int(math.sqrt(x)) + 1, 2):
-        if x % i == 0:
-            return False
+def isPrime(x):
+    if x < 2: return False
+    elif x == 2: return True
+    
+    for i in range(3, sqrt(x) + 1, 2):
+        if x %  i == 0: return False
     return True
 
-t = int(input().strip())
-for _ in range(t):
-    n = int(input().strip())
-    k = euler_phi(n)
-    print("YES" if is_prime(k) else "NO")
+for test in range(int(input())):
+    n = int(input())
+    count = 0
+    
+    for i in range(n):
+        if gcd(i, n) == 1: count += 1
+        
+    print("YES") if isPrime(count) else print("NO")
