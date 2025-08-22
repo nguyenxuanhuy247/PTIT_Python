@@ -17,15 +17,11 @@
 # 10 6 40       |   2 8 14 20 26
 
 a, K, N = map(int, input().split())
+found = False
 
-res = []
-start = ((a // K) + 1) * K - a 
-if start <= 0:
-    start += K
-for b in range(start, N - a + 1, K):
-    res.append(b)
-
-if res:
-    print(' '.join(map(str, res)))
-else:
-    print(-1)
+for total in range(0, N + 1, K):
+    if total > a:
+        found = True
+        print(total - a, end=' ')
+        
+if not found: print("-1")
