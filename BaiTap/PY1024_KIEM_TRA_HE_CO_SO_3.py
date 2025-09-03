@@ -9,26 +9,6 @@
 # Output
 # Nếu đúng in ra YES, nếu sai in ra NO.
 
-# Ví dụ
-
-# Input
-
-# Output
-
-# 3
-
-# 1214AB
-
-# 10210221
-
-# 22222222
-
-# NO
-
-# YES
-
-# YES
-
 # Ví dụ:
 # Input             | Output
 # 3                 | 
