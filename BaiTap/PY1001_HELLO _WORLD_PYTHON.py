@@ -17,5 +17,4 @@ name = input()
 print(f"Hello {name}!")
 
 list = ['huy', 'hoa']
-list[10] = 'hung'
 print(type(list))
