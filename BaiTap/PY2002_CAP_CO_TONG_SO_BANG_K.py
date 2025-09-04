@@ -15,26 +15,6 @@
 # Các cặp số tìm được theo format (a, b) trong đó a là số hạng đầu tiên. 
 # Mỗi cặp số cách nhau bởi dấu cách. Nếu không tìm thấy in ra NO
 
-# Ví dụ
-
-# Input
-
-# Output
-
-# 2
-
-# 1 5 3   2  4
-
-# 7
-
-# 1 3 5 6 4 7
-
-# 20
-
-# (5, 2) (3, 4)
-
-# NO
-
 # Ví dụ:
 # Input             | Output
 # 2                 |  
